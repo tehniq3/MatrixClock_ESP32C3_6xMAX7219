@@ -4,8 +4,8 @@ based on https://github.com/schreibfaul1/ESP8266-LED-Matrix-Clock/ by for ESP32-
 
 ESP32-C3 SuperMini       MAX7219
 --------------------------------
-GPIO4  ----------------> CLK
-GPIO6  ----------------> DIN
-GPIO7  ----------------> CS
-GND    ----------------> GND
-5V     ----------------> VCC
+- GPIO4  ----------------> CLK
+- GPIO6  ----------------> DIN
+- GPIO7  ----------------> CS
+- GND    ----------------> GND
+- 5V     ----------------> VCC
