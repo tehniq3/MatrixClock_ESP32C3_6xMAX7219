@@ -9,3 +9,6 @@ ESP32-C3 SuperMini       MAX7219
 - GPIO7  ----------------> CS
 - GND    ----------------> GND
 - 5V     ----------------> VCC
+
+
+Note: Please be aware the 1x versoon isn't fully stable in yhis moment, but will be ...
