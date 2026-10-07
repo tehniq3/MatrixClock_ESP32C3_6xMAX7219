@@ -12,4 +12,4 @@ ESP32-C3 SuperMini       MAX7219
 - GND    ----------------> GND
 - 5V     ----------------> VCC
 
-![schematic](https://blogger.googleusercontent.com/img/a/AVvXsEhFIA3SE0goEljw3tcJPUGhksKl0NDvGKFQSEmP24p6PyQQt3fetB6KQNj3fB4asxDCd8zAiK_W3cFKoDRUzpfXWPG2o2ZgS8PrNB38RWBBjsHYgJrmvI3VO2-uokiQIu8jN5wGNvGzPCjki9Z_-Wi_H4SLtnsQSYJXUIkx0Im1AkQ0VPItxl7KDN9C2J3-)
+![schematic](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhF65DQboBLJewwKn42ykMFIjnxPV18nl9FVnClkQhOuh656LXOcrG3euHFcwPBL3aSRkYjV_A7cRVJCXMnL1jqhwj5Zluke-SoAnaV9faB60mjXKmUA3P1xGhpN0LXvyjKBMeQaJl8bvZcuLMXYzry5wF4G5QNdXRmR2fp3OrouNBsn0OLIO6oZPcZWLlw/s2080/6xMAX7219_esp32c3supermini_schematic.jpg)
