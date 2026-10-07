@@ -11,4 +11,3 @@ ESP32-C3 SuperMini       MAX7219
 - 5V     ----------------> VCC
 
 
-Note: Please be aware the 1x version isn't fully stable in this moment, but will be ...
