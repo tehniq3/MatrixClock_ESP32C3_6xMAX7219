@@ -1090,35 +1090,6 @@ void loop() {
 #endif //UDTXT
         }
         
-/*
-// -------------------------------------
-        if(f_scroll_x2){ // Alternare intre Text Utilizator si Date Meteo
-            static bool toggle_text = false; // Memoreaza care text trebuie afisat la tura curenta
-
-            // La inceputul fiecarui scroll (cand _dPosX este resetat la start -8), schimba textul
-            if (_dPosX == -8 && _zPosX == 0) {
-                toggle_text = !toggle_text; // Schimba starea: false -> true -> false
-            }
-
-            String txt_de_afisat = "";
-
-            if (toggle_text) {
-                // RULAREA 1: Textul personalizat
-#ifdef UDTXT
-                txt_de_afisat = UDTXT;
-#else
-                txt_de_afisat = "   ESP8266 Clock   ";
-#endif
-            } else {
-                // RULAREA 2: Textul cu datele meteo (Temperatura, Umiditate, Presiune)
-                txt_de_afisat = "   " + String(w_temp, 1) + "C  " + String(w_hum) + "%  " + String(w_pres_mmhg) + "mmHg  " + w_cond + "   ";
-            }
-
-            // Trimite textul selectat catre functia de derulare
-            sctxtlen = scrolltext(_dPosX, txt_de_afisat);
-        }
- */
-// -------------------------------------
 //      -------------------------------------
         refresh_display(); //all 50msec
         if (f_scrollend_y == true) f_scrollend_y = false;
@@ -1139,12 +1110,9 @@ void loop() {
       lastWeatherUpdate = millis(); 
     }
   }
-  // ============================================================
-
-    
+  // ============================================================    
 }  // END MAIN LOOP
- //   txtW += String(w_temp, 1) + "°C ";
- // if (w_temp > 0) txtW += "+";
+
 
 //*********************************************************************************************************
 //    Examples for time zones                                                                             *
